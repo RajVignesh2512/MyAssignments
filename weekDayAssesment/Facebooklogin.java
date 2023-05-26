@@ -34,7 +34,7 @@ public class Facebooklogin {
 		WebElement year=Driver.findElement(By.id("year"));
 		Select year1=new Select(year);
 		year1.selectByVisibleText("1999");
-		WebElement select=Driver.findElement(By.xpath("\"//label[text()='Female"));
+		WebElement select=Driver.findElement(By.xpath("\"//label[text()='Male"));
 		select.click();
 		
 		
